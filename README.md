@@ -1,5 +1,7 @@
 # react-native-image-slider-box
 
+[![npm](https://img.shields.io/npm/v/react-native-image-slider-box.svg)](https://www.npmjs.com/package/react-native-image-slider-box)
+
 This library use `react-native-snap-carousel` and make easier way to create image slider box with full customization ability.
 
 ## Notice:
