@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-slider-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and fully customization React Native component that implements a SliderBox UI.",
   "main": "index.js",
   "scripts": {
@@ -34,9 +34,11 @@
   },
   "homepage": "https://github.com/hamedtaheri32/react-native-image-slider-box#readme",
   "devDependencies": {
-    "metro-react-native-babel-preset": "^0.53.1"
+    "metro-react-native-babel-preset": "*"
   },
   "peerDependencies": {
-    "react-native-snap-carousel": "^3.7.5"
+    "react-native-snap-carousel": "*"
+  },"peerDependencies": {
+    "react-native-snap-carousel": "*"
   }
 }
