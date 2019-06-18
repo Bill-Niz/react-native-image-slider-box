@@ -47,15 +47,19 @@ export class SliderBox extends Component {
     }
   }
   _renderItem({ item, index }) {
+    const { imageComponent } = this.props
     return (
       <TouchableWithoutFeedback
         key={index}
         onPress={() => this.onCurrentImagePressedHandler(index)}
       >
+        {imageComponent && imageComponent({uri:item, height: this.props.sliderBoxHeight || 200})}
+        {!imageComponent && (
         <Image
           style={{ width: null, height: this.props.sliderBoxHeight || 200 }}
           source={{ uri: item }}
         />
+      )}
       </TouchableWithoutFeedback>
     );
   }
